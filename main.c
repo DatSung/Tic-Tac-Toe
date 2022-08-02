@@ -47,11 +47,15 @@ int main()
 
       printBoard();
       printWinner(winner);
-
+      
       printf("\nWould you like to play again? (Y/N): ");
       scanf("%c", &response);
       response = toupper(response);
+      
    } while (response == 'Y');
+
+   
+   
 
    printf("Thanks for playing!");
 
